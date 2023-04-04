@@ -1,0 +1,225 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+ul,
+ol {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    max-width: 595px;
+    padding: 50px 40px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.header-img {
+    margin-left: 50px;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+}
+
+.header-title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 44px;
+    color: #212121;
+}
+
+.header-text {
+
+    padding: 10px;
+    text-align: center;
+    width: 200px;
+    background-color: green;
+    margin-top: 18px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 10px;
+    letter-spacing: 0.8px;
+    color: white;
+    mix-blend-mode: normal;
+    opacity: 0.6;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.profil-title {
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 15px;
+    letter-spacing: 0.2px;
+    color: #212121;
+}
+
+.profil-text {
+    margin-top: 8px;
+    width: 235px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 19px;
+    letter-spacing: -0.2px;
+    color: #212121;
+    mix-blend-mode: normal;
+    opacity: 0.6;
+}
+
+.skills-title {
+    margin-top: 50px;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 15px;
+    letter-spacing: 0.2px;
+    color: #212121;
+}
+
+.skills-span {
+    margin-right: 7px;
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    background-color: black;
+}
+
+.skills-text {
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 19px;
+    letter-spacing: -0.2px;
+    color: #212121;
+}
+
+.edication {
+    width: 235px;
+}
+
+.edication-title {
+    margin-top: 40px;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 15px;
+    letter-spacing: 0.2px;
+    color: #212121;
+}
+
+.edication-text {
+    margin-top: 9px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 18px;
+}
+
+.edication-item-title {
+    margin-top: 5px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 19px;
+    letter-spacing: -0.2px;
+    color: #212121;
+    mix-blend-mode: normal;
+    opacity: 0.6;
+}
+
+.edication-span {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #212121;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+
+.contact-title{
+    margin-top: 30px;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 15px;
+    letter-spacing: 0.2px;
+    color: #212121;
+    margin-bottom: 9px;
+}
+
+.contact-text{
+    margin-top: 5px;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 18px;
+}
+.contact-link{
+    margin-left: 5px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 19px;
+    color: #212121;
+    mix-blend-mode: normal;
+    opacity: 0.6;
+}
+.language-title{
+    margin-top: 40px;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 15px;
+    letter-spacing: 0.2px;
+    color: #212121;
+    margin-bottom: 5px;
+}
+.project-title{
+   
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 15px;
+    letter-spacing: 0.2px;
+    color: #212121;
+    margin-bottom: 9px;
+}
+.github-link{
+    margin-right: 5px;
+}
